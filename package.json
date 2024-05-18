@@ -1,0 +1,19 @@
+{
+  "name": "cse341-sp24-yazvinskaya",
+  "version": "1.0.0",
+  "description": "CSE341 project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnastasiaYazvinskaya/cse341-sp24-yazvinskaya.git"
+  },
+  "author": "Anastasia Yazvinskaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnastasiaYazvinskaya/cse341-sp24-yazvinskaya/issues"
+  },
+  "homepage": "https://github.com/AnastasiaYazvinskaya/cse341-sp24-yazvinskaya#readme"
+}
