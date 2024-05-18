@@ -5,11 +5,11 @@
     "description": "Contacts API",
     "version": "1.0.0"
   },
-  "host": "cse341-sp24-yazvinskaya.onrender.com/",
+  "host": "cse341-sp24-yazvinskaya.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
-    "https"
+    "https",
+    "http"
   ],
   "paths": {
     "/": {
