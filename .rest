@@ -1,13 +1,63 @@
-#L01
+#L02
 ###
 GET http://localhost:3000/ HTTP/1.1
 ###
 GET https://cse341-sp24-yazvinskaya.onrender.com HTTP/1.1
-###
+
+
+### Get All
 GET http://localhost:3000/contacts HTTP/1.1
-###
+### Get one
 GET http://localhost:3000/contacts/64861d6ea2f45b356e0249b7 HTTP/1.1
+### Add one
+POST http://localhost:3000/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Kristina",
+    "lastName": "Loginova",
+    "email": "log53647@byui.edu",
+    "favoriteColor": "orange",
+    "birthday": "1998-07-22T20:00:00.000Z"
+}
+### Update one
+PUT http://localhost:3000/contacts/6648e62fda57b85fcd234742 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Michail",
+    "lastName": "Romanov",
+    "email": "rom53647@byui.edu",
+    "favoriteColor": "purple",
+    "birthday": "2001-07-02T20:00:00.000Z"
+}
 ###
+DELETE http://localhost:3000/contacts/6648e76fd51578ccdedb949b HTTP/1.1
+
+
+### Get all
 GET https://cse341-sp24-yazvinskaya.onrender.com/contacts HTTP/1.1
-###
+### Get one
 GET https://cse341-sp24-yazvinskaya.onrender.com/contacts/64861d6ea2f45b356e0249b7 HTTP/1.1
+### Add one
+POST http://cse341-sp24-yazvinskaya.onrender.com/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Kristina",
+    "lastName": "Loginova",
+    "email": "log53647@byui.edu",
+    "favoriteColor": "orange",
+    "birthday": "1998-07-22T20:00:00.000Z"
+}
+### Update one
+Put http://cse341-sp24-yazvinskaya.onrender.com/contacts/64863a1b58a1d821bf18c26b HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Michail",
+    "lastName": "Romanov",
+    "email": "rom53647@byui.edu",
+    "favoriteColor": "purple",
+    "birthday": "2001-07-02T20:00:00.000Z"
+}
