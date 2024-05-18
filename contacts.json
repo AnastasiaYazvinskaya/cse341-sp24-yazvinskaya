@@ -1,0 +1,30 @@
+[
+    {
+        "firstName": "Anastasia",
+        "lastName": "Yazvsinakay",
+        "email": "yaz19001@byui.edu",
+        "favoriteColor": "pink",
+        "birthday": "1998-07-22T20:00:00.000Z"
+    },
+    {
+        "firstName": "Olga",
+        "lastName": "Kudasova",
+        "email": "kud18230@byui.edu",
+        "favoriteColor": "black",
+        "birthday": "1990-10-22T20:00:00.000Z"
+    },
+    {
+        "firstName": "Victoria",
+        "lastName": "Romanova",
+        "email": "rom19765@byui.edu",
+        "favoriteColor": "white",
+        "birthday": "1988-02-09T20:00:00.000Z"
+    },
+    {
+        "firstName": "Anastasia",
+        "lastName": "Loginova",
+        "email": "log18003@byui.edu",
+        "favoriteColor": "green",
+        "birthday": "1993-12-20T20:00:00.000Z"
+    }
+]
