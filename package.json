@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AnastasiaYazvinskaya/cse341-sp24-yazvinskaya/issues"
   },
-  "homepage": "https://github.com/AnastasiaYazvinskaya/cse341-sp24-yazvinskaya#readme"
+  "homepage": "https://github.com/AnastasiaYazvinskaya/cse341-sp24-yazvinskaya#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
